@@ -874,26 +874,4 @@
     </div>
   </div>
 
-  <script>
-    const clock = document.getElementById("clock");
-
-    function updateClock() {
-      clock.textContent = new Date().toLocaleTimeString("en-GB", {
-        hour12: false
-      });
-    }
-
-    updateClock();
-    setInterval(updateClock, 1000);
-
-    const rooms = document.querySelectorAll(".room");
-
-    rooms.forEach((room) => {
-      room.addEventListener("click", () => {
-        rooms.forEach((item) => item.classList.remove("active"));
-        room.classList.add("active");
-      });
-    });
-  </script>
-</body>
-</html>
+ <script src="app.js"></script>
