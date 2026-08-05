@@ -17,8 +17,8 @@
  * - wallet/private keys
  */
 window.ASCEND_CONFIG = Object.freeze({
-  supabaseUrl: "",
-  supabaseAnonKey: "",
+  supabaseUrl: "https://itpflhyqlddzyzhfintw.supabase.co",
+  supabaseAnonKey: "sb_publishable_kH6M9rddjhZDqbWDJv2CBg_GN1kFkrg",
   refreshIntervalMs: 60000,
   paperOnly: true,
   liveTradingEnabled: false,
