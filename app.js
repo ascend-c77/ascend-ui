@@ -6,7 +6,7 @@
  *
  * No wallet access.
  * No database writes.
- * No live trading.
+ * No live trading. 
  */
 
 const ASCEND_STATE = Object.freeze({
