@@ -3,23 +3,23 @@
 /**
  * Public, read-only frontend configuration.
  *
- * SAFE:
- * - Supabase project URL
- * - Supabase anon/public key
+ * Put your Supabase Project URL and publishable key below.
  *
- * NEVER PLACE HERE:
- * - service_role key
+ * SAFE:
+ * - https://YOUR_PROJECT_REF.supabase.co
+ * - sb_publishable_...
+ *
+ * NEVER USE:
+ * - service_role
+ * - sb_secret_...
  * - Railway secrets
  * - ingest secrets
  * - wallet/private keys
  */
-
 window.ASCEND_CONFIG = Object.freeze({
-  supabaseUrl: "https://itpflhyqlddzyzhfintw.supabase.co",
-  supabaseAnonKey: "sb_publishable_kH6M9rddjhZDqbWDJv2CBg_GN1kFkrg",
-
-  refreshIntervalMs: 60_000, 
-
+  supabaseUrl: "",
+  supabaseAnonKey: "",
+  refreshIntervalMs: 60000,
   paperOnly: true,
   liveTradingEnabled: false,
 });
